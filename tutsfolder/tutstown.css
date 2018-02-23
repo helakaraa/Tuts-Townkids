@@ -1,3 +1,75 @@
 body {
-  /* Let's set the background for the entire page to a certain color; this is a CSS comment! */
+  margin: 0; /* eliminates margin spacing on body so that the footer color is able to fill the window */
+  /* Sets the background for the entire page to a light yellow color */
+  background-color: #FAF8DA;
+  font-family: 'Open Sans', sans-serif; /* Font from Google Fonts */
 }
+
+/* begin header styling */
+.primary-header {
+  text-align: center; /* This will center the main heading and the main image */
+}
+
+.main-heading {
+  font-size: 70px;
+  color: #205D76;
+}
+
+/* added from original tutorial site to prevent horizonal scroll on small screens */
+.town-preview {
+  width: 65%; /* changed from pixel value */
+}
+/* end header styling */
+
+/* begin main styling */
+/* added from original tutorial site to prevent horizonal scroll on small screens */
+section {
+  max-width: 100%;
+}
+.store-section {
+  display: flex; /* Makes the content witin this element flexible */
+  display: -webkit-flex; /* vendor prefix */
+  margin: 50px auto; /* Adds spacing at top of all sections and then centers them */
+  width: 450px; /* approximate width of each section */
+}
+
+.building {
+  width: 200px;
+}
+
+.store-details { /* This is the div that contains the text */
+  margin-left: 30px;
+}
+
+.category-heading {
+  color: #205D76;
+  font-size: 30px;
+}
+
+.store-list {
+  padding-left: 15px;
+  color: #FFC122; /* this will make sure the bullet points turn dark yellow! */
+}
+
+.store-name {
+  margin-bottom: 10px; /* adds a bit of space at the bottom of each list item */
+}
+
+.store-link {
+  color: #EA6E2F;
+  font-size: 20px;
+}
+/* end main styling */
+
+/* begin footer styling */
+.primary-footer {
+  padding: 2px;
+  background-color: #FFC122;
+  text-align: center;
+}
+
+.created-by {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+/* end footer styling */
